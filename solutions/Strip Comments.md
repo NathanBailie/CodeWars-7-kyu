@@ -1,5 +1,10 @@
-// https://www.codewars.com/kata/51c8e37cee245da6b40000bd
+# 📝 Strip Comments
 
+## 🔗 [Task description on CodeWars](https://www.codewars.com/kata/51c8e37cee245da6b40000bd)
+
+### 💡 Solution
+
+```javascript
 function solution(input, markers) {
     return input.split('\n').map(l => {
         let ind = l.length;
@@ -10,3 +15,4 @@ function solution(input, markers) {
         return l.slice(0, ind).trimRight();
     }).join('\n');
 }
+```

@@ -1,5 +1,10 @@
-// https://www.codewars.com/kata/5672682212c8ecf83e000050
+# 📝 Twice linear
 
+## 🔗 [Task description on CodeWars](https://www.codewars.com/kata/5672682212c8ecf83e000050)
+
+### 💡 Solution
+
+```javascript
 function dblLinear(n) {
     let u = [1], yi = 0, zi = 0;
 
@@ -10,3 +15,4 @@ function dblLinear(n) {
 
     return u[n];
 }
+```

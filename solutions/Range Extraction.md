@@ -1,5 +1,10 @@
-// https://www.codewars.com/kata/51ba717bb08c1cd60f00002f
+# 📝 Range Extraction
 
+## 🔗 [Task description on CodeWars](https://www.codewars.com/kata/51ba717bb08c1cd60f00002f)
+
+### 💡 Solution
+
+```javascript
 function solution(list) {
     let res = [];
     for (let i = 0; i < list.length; i++) {
@@ -10,3 +15,4 @@ function solution(list) {
     }
     return res.join(",");
 }
+```

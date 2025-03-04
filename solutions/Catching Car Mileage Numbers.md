@@ -1,5 +1,10 @@
-// https://www.codewars.com/kata/52c4dd683bfd3b434c000292
+# 📝 Catching Car Mileage Numbers
 
+## 🔗 [Task description on CodeWars](https://www.codewars.com/kata/52c4dd683bfd3b434c000292)
+
+### 💡 Solution
+
+```javascript
 function isInteresting(num, p) {
     function isNumInteresting(n) {
         if (n < 100) return false;
@@ -13,3 +18,4 @@ function isInteresting(num, p) {
     }
     return isNumInteresting(num) ? 2 : (isNumInteresting(num + 1) || isNumInteresting(num + 2) ? 1 : 0);
 }
+```

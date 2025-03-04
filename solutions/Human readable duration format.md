@@ -1,5 +1,10 @@
-// https://www.codewars.com/kata/52742f58faf5485cae000b9a
+# 📝 Human readable duration format
 
+## 🔗 [Task description on CodeWars](https://www.codewars.com/kata/52742f58faf5485cae000b9a)
+
+### 💡 Solution
+
+```javascript
 function formatDuration(seconds) {
     if (seconds === 0) return "now";
     const times = { year: 31536000, day: 86400, hour: 3600, minute: 60, second: 1 };
@@ -13,3 +18,4 @@ function formatDuration(seconds) {
     }, []).join(', ');
     return res.length > 1 ? res.replace(/,([^,]*)$/, ' and$1') : res;
 }
+```

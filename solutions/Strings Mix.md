@@ -1,5 +1,10 @@
-// https://www.codewars.com/kata/5629db57620258aa9d000014
+# 📝 Strings Mix
 
+## 🔗 [Task description on CodeWars](https://www.codewars.com/kata/5629db57620258aa9d000014)
+
+### 💡 Solution
+
+```javascript
 function mix(s1, s2) {
     let h1 = getHash(s1), h2 = getHash(s2);
     let res = [];
@@ -24,3 +29,4 @@ function getHash(str) {
     for (let key in hash) hash[key] > 1 && (newHash[key] = hash[key]);
     return newHash;
 }
+```

@@ -1,5 +1,10 @@
-// https://www.codewars.com/kata/53f40dff5f9d31b813000774/javascript
+# 📝 Recover a secret string from random triplets
 
+## 🔗 [Task description on CodeWars](https://www.codewars.com/kata/53f40dff5f9d31b813000774/javascript)
+
+### 💡 Solution
+
+```javascript
 function recoverSecret(triplets) {
     let res = '';
     let chars = new Set(triplets.flat());
@@ -15,3 +20,4 @@ function recoverSecret(triplets) {
     }
     return res;
 }
+```

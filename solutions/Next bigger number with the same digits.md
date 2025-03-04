@@ -1,5 +1,10 @@
-// https://www.codewars.com/kata/55983863da40caa2c900004e
+# 📝 Next bigger number with the same digits
 
+## 🔗 [Task description on CodeWars](https://www.codewars.com/kata/55983863da40caa2c900004e)
+
+### 💡 Solution
+
+```javascript
 function nextBigger(n) {
     let arr = [...String(n)], div = -1;
     for (let i = arr.length - 1; i > 0; i--) {
@@ -19,3 +24,4 @@ function nextBigger(n) {
     let res = +arr.concat(num, rightPart).join((''));
     return res > n ? res : -1;
 }
+```

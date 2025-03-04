@@ -1,5 +1,10 @@
-// https://www.codewars.com/kata/5263c6999e0f40dee200059d
+# 📝 The observed PIN
 
+## 🔗 [Task description on CodeWars](https://www.codewars.com/kata/5263c6999e0f40dee200059d)
+
+### 💡 Solution
+
+```javascript
 function getPINs(o) {
     const variants = {
         '0': ['0', '8'],
@@ -24,3 +29,4 @@ function getPINs(o) {
 
     return findVariations([]);
 }
+```

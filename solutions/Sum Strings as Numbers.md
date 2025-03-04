@@ -1,5 +1,10 @@
-// https://www.codewars.com/kata/5324945e2ece5e1f32000370
+# 📝 Sum Strings as Numbers
 
+## 🔗 [Task description on CodeWars](https://www.codewars.com/kata/5324945e2ece5e1f32000370)
+
+### 💡 Solution
+
+```javascript
 function sumStrings(a, b) {
     let res = '', c = 0;
     for (let i = a.length - 1, j = b.length - 1; i >= 0 || j >= 0 || c > 0; i--, j--) {
@@ -11,3 +16,4 @@ function sumStrings(a, b) {
     }
     return res.replace(/^0+/, '');
 }
+```
