@@ -1,5 +1,23 @@
-# CodeWars 8kyu kata
+# CodeWars 8 kyu Kata (Python)
 
-## Description
+[![CodeWars Profile](https://www.codewars.com/users/Nathan_Bailie/badges/large)](https://www.codewars.com/users/Nathan_Bailie)
 
-My solutions for the CodeWars level 8 katas
+## 📌 Description
+
+This repository contains my solutions for **8 kyu** level challenges from [CodeWars](https://www.codewars.com/) for Python.
+
+## 📂 Structure
+
+- Each challenge is stored in a separate file with its title.
+- Solutions are written in **Python**.
+- Some files may contain multiple solution variants.
+
+## 🚀 Main Topics
+
+- **Dictionaries**
+- **Slices**
+- **Lists**
+- **Strings**
+- **Functions**
+- **Cycles**
+- **And more...**
