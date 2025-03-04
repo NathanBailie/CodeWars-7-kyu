@@ -1,4 +1,22 @@
-# CodeWars 5 kyu kata
+# CodeWars 5 kyu Kata
 
-## Description
-My solutions for the CodeWars level 5 katas
+[![CodeWars Profile](https://www.codewars.com/users/Nathan_Bailie/badges/large)](https://www.codewars.com/users/Nathan_Bailie)
+
+## 📌 Description
+
+This repository contains my solutions for **5 kyu** level challenges from [CodeWars](https://www.codewars.com/).
+
+## 📂 Structure
+
+- Each challenge is stored in a separate file with its title.
+- Solutions are written in **JavaScript**.
+- Some files contain multiple solution variants.
+
+## 🚀 Main Topics
+
+- **Algorithms**
+- **Strings**
+- **Arrays**
+- **Regular expressions**
+- **Objects**
+- **Puzzles**
