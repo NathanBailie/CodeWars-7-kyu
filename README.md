@@ -1,34 +1,27 @@
-# CodeWars Solutions (6 kyu and 7 kyu)
+# CodeWars solutions
 
 [![CodeWars Profile](https://www.codewars.com/users/Nathan_Bailie/badges/large)](https://www.codewars.com/users/Nathan_Bailie)
 
 ## 📌 Description
 
-This repository contains my solutions for both **6 kyu** and **7 kyu** level challenges from [CodeWars](https://www.codewars.com/).
+This repository contains my solutions for CodeWars challenges of varying difficulty levels from [CodeWars](https://www.codewars.com/)
 
 ## 📂 Structure
 
-- Solutions are organized by kyu level (6 kyu and 7 kyu)
+- Solutions are organized in folders by kyu difficulty level
 - Each challenge is stored in a separate file with its title
-- Solutions are written in **JavaScript**
-- Some files contain multiple solution variants
+- Solutions are primarily written in **JavaScript**
+- Some files contain multiple solution variants to showcase different approaches
 
-## 🚀 Main Topics
-
-### Common Topics
+## 📝 Common topics
 
 - **Algorithms**
+- **Data Structures**
 - **Strings**
 - **Arrays**
-- **Regular expressions**
+- **Regular Expressions**
 - **Objects**
-
-### 6 kyu Specific
-
-- **Advanced Algorithms**
-- **Puzzles**
-
-### 7 kyu Specific
-
-- **Basic Algorithms**
-- **Fundamental Concepts**
+- **Mathematics**
+- **Logic**
+- **Recursion**
+- **Sorting**
